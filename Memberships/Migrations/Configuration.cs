@@ -10,7 +10,7 @@ namespace Memberships.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            AutomaticMigrationDataLossAllowed = false;
+            AutomaticMigrationDataLossAllowed = true;
         }
 
         protected override void Seed(Memberships.Models.ApplicationDbContext context)

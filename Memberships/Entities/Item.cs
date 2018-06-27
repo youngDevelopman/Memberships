@@ -47,9 +47,9 @@ namespace Memberships.Entities
         public ICollection<ItemType> ItemTypes { get; set; }
 
         [DisplayName("Sections")]
-        public ICollection<ItemType> Sections { get; set; }
+        public ICollection<Section> Sections { get; set; }
 
         [DisplayName("Parts")]
-        public ICollection<ItemType> Parts { get; set; }
+        public ICollection<Part> Parts { get; set; }
     }
 }
